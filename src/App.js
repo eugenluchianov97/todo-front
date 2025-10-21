@@ -5,7 +5,8 @@ function App() {
     const [tasks, setTasks] = useState([]);
     const [text, setText] = useState("");
 
-    const API_URL = "http://localhost:5000/tasks";
+    const API_URL = "https://todo-backend-8rjz.onrender.com/tasks";
+    //
 
     // Получаем все задачи
     useEffect(() => {
